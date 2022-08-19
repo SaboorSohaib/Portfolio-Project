@@ -1,5 +1,5 @@
 # Protofile-Project
-  This is my protofile website and it contains all information about me and my project.
+  This is my protofile website and it contains all information about me and my project.and it is assigned by Microverse.
   
 ## Built with 
  - HTML
@@ -7,11 +7,9 @@
   
 To get a local copy up and running follow these simple example steps
 ### Prerequisites
+    If you want to use this project locally on your device you will need the following tools: 1: Node.js 2: NPM 3: Git,
 ### Setup
-### Install
-### Usage
-### Run tests
-### Deploymen
+    To setup this project on your local device clone it using git and then install all of it's dependencies using npm.
 
  ## Author
      👤 Author1
@@ -23,7 +21,7 @@ To get a local copy up and running follow these simple example steps
  ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.(https://github.com/SaboorSohaib/Microverse-Hello-Project/issues)
+Feel free to check the issues page.(https://github.com/SaboorSohaib/Protofile-Project/issues)
 
 ## Show your support
 Give a ⭐️ if you like this project!
