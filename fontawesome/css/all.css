@@ -1,3 +1,8 @@
+/* stylelint-disable CssSyntaxError */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable-next-line comment-empty-line-before */
+
 /*!
  * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -10510,7 +10515,7 @@ readers do not read off random characters that represent icons */
 
 .fas,
 .fa-solid {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 900;
 }
 
