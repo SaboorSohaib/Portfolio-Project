@@ -558,3 +558,172 @@ ul li {
 .about-btn:hover {
   background-color: rgb(84, 236, 173);
 }
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 363px;
+  justify-content: center;
+  margin-left: 75px;
+  margin-bottom: 58px;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: rgb(23, 43, 77);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+}
+
+.name {
+  height: 48;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(208, 217, 212);
+  border-radius: 4px;
+  margin-left: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.name input {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 119, 140);
+}
+
+.email {
+  height: 48;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(208, 217, 212);
+  border-radius: 4px;
+  margin-left: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.email input {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 119, 140);
+}
+
+.message {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(96, 192, 149);
+  border-radius: 4px;
+  height: 114px;
+  margin-left: 24px;
+}
+
+.message textarea {
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(9, 30, 66);
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(54, 179, 127);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.contact-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
+}
+
+.contact-btn:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(84, 236, 173);
+  border-radius: 4px;
+}
+
+.contact-btn:enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(84, 236, 173);
+  border-radius: 4px;
+}
+
+.socialicon1 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialicon li a {
+  flex: 1;
+  align-items: center;
+}
+
+.emai-address {
+  margin-top: 17px;
+}
