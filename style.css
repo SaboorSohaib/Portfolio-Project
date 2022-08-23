@@ -563,12 +563,11 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  width: 327px;
+  width: 355px;
   height: 363px;
   justify-content: center;
-  margin-left: 75px;
   margin-bottom: 58px;
+  text-align: center;
 }
 
 .contact-text {
@@ -579,6 +578,9 @@ ul li {
   line-height: 52px;
   text-align: center;
   color: rgb(23, 43, 77);
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
 }
 
 .contact-form {
@@ -586,7 +588,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 327px;
+  width: 100%;
 }
 
 .name {
@@ -594,12 +596,12 @@ ul li {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(208, 217, 212);
   border-radius: 4px;
-  margin-left: 24px;
   align-items: center;
   margin-bottom: 24px;
 }
 
 .name input {
+  width: 320px;
   height: 18px;
   left: 16px;
   right: 16px;
@@ -608,10 +610,11 @@ ul li {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  padding: 15px 16px;
+  padding: 20px 20px;
   display: flex;
   align-items: center;
   color: rgb(107, 119, 140);
+  border: 1px solid rgb(208, 217, 212);
 }
 
 .email {
@@ -619,12 +622,12 @@ ul li {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(208, 217, 212);
   border-radius: 4px;
-  margin-left: 24px;
   align-items: center;
   margin-bottom: 24px;
 }
 
 .email input {
+  width: 320px;
   height: 18px;
   left: 16px;
   right: 16px;
@@ -633,10 +636,11 @@ ul li {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  padding: 15px 16px;
+  padding: 20px 20px;
   display: flex;
   align-items: center;
   color: rgb(107, 119, 140);
+  border: 1px solid rgb(208, 217, 212);
 }
 
 .message {
@@ -644,14 +648,8 @@ ul li {
   border: 1px solid rgb(96, 192, 149);
   border-radius: 4px;
   height: 114px;
-  margin-left: 24px;
-}
-
-.message textarea {
-  left: 12px;
-  right: 12px;
-  top: 12px;
-  bottom: 12px;
+  width: 320px;
+  padding: 10px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -699,7 +697,7 @@ ul li {
   border-radius: 4px;
 }
 
-.contact-btn:enabled {
+.contact-btn:active {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -724,6 +722,23 @@ ul li {
   align-items: center;
 }
 
-.emai-address {
+.email-address {
+  width: 375px;
+  height: 189px;
   margin-top: 17px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgb(66, 82, 110);
+}
+
+.last-div {
+  height: 4px;
+  width: 200px;
+  background-color: rgb(10, 11, 14);
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
