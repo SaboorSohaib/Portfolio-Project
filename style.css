@@ -587,7 +587,7 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
   width: 100%;
 }
 
@@ -597,7 +597,7 @@ ul li {
   border: 1px solid rgb(208, 217, 212);
   border-radius: 4px;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
 }
 
 .name input {
@@ -623,7 +623,7 @@ ul li {
   border: 1px solid rgb(208, 217, 212);
   border-radius: 4px;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
 }
 
 .email input {
@@ -697,7 +697,7 @@ ul li {
   border-radius: 4px;
 }
 
-.contact-btn:active {
+.contact-btn:enabled {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -705,7 +705,7 @@ ul li {
   gap: 10px;
   width: 129px;
   height: 48px;
-  background: rgb(84, 236, 173);
+  background: rgb(54, 179, 127);
   border-radius: 4px;
 }
 
