@@ -709,6 +709,18 @@ ul li {
   border-radius: 4px;
 }
 
+.contact-btn:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(84, 236, 173);
+  border-radius: 4px;
+}
+
 .socialicon1 {
   list-style: none;
   display: flex;
