@@ -62,10 +62,46 @@ header {
   text-align: center;
   align-items: center;
   margin-top: 80px;
+  animation: moveInLeft 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translate(10px);
+
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+
+  }
 }
 
 .green {
   color: rgb(54, 179, 127);
+  animation: moveInRight 1s;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 .support-text {
@@ -557,4 +593,188 @@ ul li {
 
 .about-btn:hover {
   background-color: rgb(84, 236, 173);
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 355px;
+  height: 363px;
+  justify-content: center;
+  margin-bottom: 58px;
+  text-align: center;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: rgb(23, 43, 77);
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.name {
+  height: 48;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(208, 217, 212);
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.name input {
+  width: 320px;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 119, 140);
+  border: 1px solid rgb(208, 217, 212);
+}
+
+.email {
+  height: 48;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(208, 217, 212);
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.email input {
+  width: 320px;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(107, 119, 140);
+  border: 1px solid rgb(208, 217, 212);
+}
+
+.message {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(96, 192, 149);
+  border-radius: 4px;
+  height: 114px;
+  width: 320px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(9, 30, 66);
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(54, 179, 127);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.contact-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
+}
+
+.contact-btn:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(84, 236, 173);
+  border-radius: 4px;
+}
+
+.contact-btn:enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: rgb(54, 179, 127);
+  border-radius: 4px;
+}
+
+.socialicon1 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialicon li a {
+  flex: 1;
+  align-items: center;
+}
+
+.email-address {
+  width: 375px;
+  height: 189px;
+  margin-top: 17px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgb(66, 82, 110);
+}
+
+.last-div {
+  height: 4px;
+  width: 200px;
+  background-color: rgb(10, 11, 14);
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
