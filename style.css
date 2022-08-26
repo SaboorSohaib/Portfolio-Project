@@ -753,6 +753,10 @@ ul li {
     width: 100%;
   }
 
+  .container {
+    width: 100%;
+  }
+
   .top-nav {
     display: flex;
     flex-direction: row;
@@ -843,6 +847,12 @@ ul li {
     display: none;
    }
 
+.text {
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
   .text h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -864,12 +874,9 @@ ul li {
   }
 
   .card-work {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-left: 134px;
-    margin-right: 134px;
-    margin-top: 52px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.334%;
+    grid-gap: 20px;
   }
 
   .card-title {
@@ -909,7 +916,7 @@ ul li {
   flex-wrap: wrap;
   margin-left: 259px;
   margin-right: 259px;
-  margin-top: 192px;
+  margin-top: 80px;
 }
 
 .about-card {
@@ -932,13 +939,24 @@ ul li {
 
 .contact-form {
    display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   flex-wrap: wrap;
-   width: 50%;
+   flex-direction: column !important;
+   align-items: center;
    height: 490px;
    margin-top: 84px;
-   margin-bottom: 100px;
+   margin-bottom: 10px;
+ }
+
+  .contact-form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+ .contact-form-bottom {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 24px;
  }
 
 .contact-text {
@@ -952,34 +970,33 @@ ul li {
   color: rgb(23, 43, 77);
   width: 463px;
   height: 256px;
-  margin-left: 135px;
  }
 
 .name input {
-  width: 560px;
+  width: 550px;
  }
 
 .email input {
-  width: 560px;
+  width: 550px;
  }
 
 .message {
-  width: 560px;
+  width: 550px;
  }
 
  .fotter-icon {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-self: center;
   height: 80px;
   width: 200px;
-  margin-top: 35px;
+  margin-top: 80px;
  }
 
 .socialicon1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 50%;
  }
 
 .email-address {
@@ -989,14 +1006,4 @@ ul li {
 .last-div {
   display: none;
  }
-
-/*
- .bottom-nav {
-  width: 2000px;
-  height: 72px;
-  position: absolute;
-  top: 3000px;
-  background-color: aqua;
- }
- */
 }
