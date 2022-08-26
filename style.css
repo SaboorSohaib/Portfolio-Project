@@ -62,10 +62,46 @@ header {
   text-align: center;
   align-items: center;
   margin-top: 80px;
+  animation: moveInLeft 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translate(10px);
+
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+
+  }
 }
 
 .green {
   color: rgb(54, 179, 127);
+  animation: moveInRight 1s;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 .support-text {
@@ -755,3 +791,4 @@ ul li {
   margin-left: 100px;
   margin-bottom: -55px;
 }
+
