@@ -8,14 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <title>My Protofile</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <!--Main Container-->
     <div class="container">
         <header>
+            <nav class="top-nav">
+                <ul class="top-nav-ul">
+                    <li class="top-nav-a"><a href="#">Protofile</a></li>
+                    <li class="top-nav-a"><a href="#">About</a></li>
+                    <li class="top-nav-a"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
          <nav class="nav-bar">
                 <a href="#" class="greating">Welcome</a>
            
@@ -24,7 +32,11 @@
             </div>
           </nav>
           <section class="main">
-            <h1 >Hey there. I'm<br>Sohaib
+            <h1 class="desk-h1">Hey there. I'm Sohaib.
+                <span class="green"> I'm a Software Developer</span>
+             </h1>
+
+            <h1 class="mobile-h1">Hey there. I'm<br>Sohaib
                <span class="green"> I'm a Software<br>Developer</span>
             </h1>
             <p class="support-text">I can help you devlope web application 
@@ -54,7 +66,7 @@
                     </div>
         </section>
         </header> 
-        
+ <!--Recent Work Section--> 
     <section class="recentwork">
         <div class="text">
             <h2>My Recent Works</h2>
@@ -63,6 +75,7 @@
         <div class="indicator">
             
         </div>
+    <div class="card-work">
         <div class="multi-stories1">
             <div class="cardpohto">
 
@@ -147,7 +160,8 @@
                 </ul>
                  <button>See Project</button>
             </div> 
-         
+        </div>
+<!--About Section-->
     </section>
         <section class="about">
             <div class="about-me">
@@ -158,11 +172,11 @@
                     dont hestiate to contact me.</p>
                 <a class="about-btn">Get My Resume</a>
             </div>
-        
+        <div class="cards">
             <div class="language about-card">
                 <img src="./assest/icon-languages.svg" alt="Language" class="language-img">
-                <h3 class="about-card-title">Languages</h3>
-                <ul class="card-tag ul1">
+                <h3 class="about-card-title title-lang">Languages</h3>
+                <ul class="card-tag lang-btn ul1">
                    <li><a href="#">JavaScript</a></li>
                    <li><a href="#">Ruby</a></li>
                    <li><a href="#">HTML</a></li>
@@ -171,7 +185,7 @@
             </div>
             <div class="framework about-card">
                 <img src="./assest/icon-frameworks.svg" alt="framework" class="framework-img">
-                <h3 class="about-card-title">framework</h3>
+                <h3 class="about-card-title">Framework</h3>
                 <ul class="card-tag frame-btn ul1">
                     <li><a href="#">Bootstrap</a></li>
                     <li><a href="#">Ruby on rails</a></li>
@@ -191,8 +205,11 @@
                     <li class="ter"><a href="#">Terminal</a></li>
                 </ul>
             </div>
-        </section>
+        </div>
+   </section>
+<!--Form Section-->
         <section class="contact-form">
+         <div class="contact-form-bottom">
             <h2 class="contact-box contact-text">
                 I'm always interested in hearing about new projects,
                  so if you'd like to chat please get in touch.
@@ -208,26 +225,28 @@
                     <textarea class="message" name="textarea"  maxlength="500" required placeholder=" Enter text here"></textarea>
                 </div>
                 <button type="submit" class="contact-btn contact-btn-text ">Get in touch</button>
-                <div class="fotter-icon">
-                    <ul class="socialicon1">
-                        <li class="twitter">
-                            <a href="#"><img src="./assest/twitter.svg" alt="twitter"></a>
-                        </li>
-                        <li class="link">
-                            <a href="#"><img src="./assest/Linkedinicon.svg" alt="Linkedin"></a>
-                        </li>
-                        <li class="medium">
-                            <a href="#"><img src="./assest/medium.svg" alt="medium"></a>
-                        </li>
-                        <li class="githup">
-                           <a href="#"> <img src="./assest/github.svg" alt="githup"></a>
-                        </li>
-                        <li class="angallist">
-                           <a href="#"><img src="./assest/angellist.svg" alt="angellist"></a>
-                        </li>
-                    </ul>
-                </div>
+               
             </form>
+        </div>
+            <div class="fotter-icon">
+                <ul class="socialicon1">
+                    <li class="twitter">
+                        <a href="#"><img src="./assest/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="link">
+                        <a href="#"><img src="./assest/Linkedinicon.svg" alt="Linkedin"></a>
+                    </li>
+                    <li class="medium">
+                        <a href="#"><img src="./assest/medium.svg" alt="medium"></a>
+                    </li>
+                    <li class="githup">
+                       <a href="#"> <img src="./assest/github.svg" alt="githup"></a>
+                    </li>
+                    <li class="angallist">
+                       <a href="#"><img src="./assest/angellist.svg" alt="angellist"></a>
+                    </li>
+                </ul>
+            </div>
             <div class="email-address">
                 <p>abdulsaboorsohaib@gmail.com</p>
             </div>
