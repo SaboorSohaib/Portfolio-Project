@@ -728,6 +728,7 @@ ul li {
   text-align: center;
   letter-spacing: 0.03em;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .contact-btn:hover {
@@ -738,7 +739,7 @@ ul li {
   gap: 10px;
   width: 129px;
   height: 48px;
-  background: rgb(54, 179, 127);
+  background: rgb(84, 236, 173);
   border-radius: 4px;
 }
 
