@@ -1,3 +1,4 @@
+/* stylelint-disable length-zero-no-unit */
 /* stylelint-disable no-descending-specificity */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable no-missing-end-of-source-newline */
@@ -324,12 +325,30 @@ ul li {
   height: 48px;
   border: none;
   margin-bottom: 24px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories1 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .multi-stories2 button {
@@ -344,12 +363,30 @@ ul li {
   height: 48px;
   border: none;
   margin-bottom: 24px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories2 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .multi-stories3 button {
@@ -365,11 +402,29 @@ ul li {
   border: none;
   margin-bottom: 24px;
   cursor: pointer;
+  letter-spacing: 0.03em;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories3 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .multi-stories4 button {
@@ -384,12 +439,30 @@ ul li {
   height: 48px;
   border: none;
   margin-bottom: 24px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories4 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .multi-stories5 button {
@@ -404,12 +477,27 @@ ul li {
   height: 48px;
   border: none;
   margin-bottom: 24px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories5 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .multi-stories6 button {
@@ -424,12 +512,30 @@ ul li {
   height: 48px;
   border: none;
   margin-bottom: 24px;
+  letter-spacing: 0.03em;
   cursor: pointer;
   color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .multi-stories6 button:hover {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .about {
@@ -588,11 +694,26 @@ ul li {
   line-height: 24px;
   letter-spacing: 0.03em;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
 }
 
 .about-btn:hover {
+  width: 159px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
   background-color: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .contact-box {
@@ -702,53 +823,39 @@ ul li {
 }
 
 .contact-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   padding: 12px;
-  gap: 10px;
   width: 129px;
   height: 48px;
+  letter-spacing: 0.03em;
   background: rgb(54, 179, 127);
   border-radius: 4px;
   border: none;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 220px;
-  cursor: pointer;
-}
-
-.contact-btn-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 1s;
 }
 
 .contact-btn:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
   gap: 10px;
   width: 129px;
   height: 48px;
   background: rgb(84, 236, 173);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  text-align: justify;
   border-radius: 4px;
 }
 
 .contact-btn:active {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  gap: 10px;
   width: 129px;
   height: 48px;
   background: rgb(0, 133, 82);
