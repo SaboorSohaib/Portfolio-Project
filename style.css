@@ -1123,21 +1123,15 @@ body {
    align-items: center;
    height: 490px;
    margin-top: 84px;
-   margin-bottom: 10px;
  }
-
-  .contact-form1 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
 
  .contact-form-bottom {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: 24px;
- }
+  display: grid;
+  grid-template-columns: 420px 420px;
+  grid-template-rows: 300px;
+  width: 100%;
+  grid-gap: 30px;
+}
 
 .contact-text {
   font-family: 'Inter', sans-serif;
@@ -1145,12 +1139,19 @@ body {
   font-weight: 700;
   font-size: 25px;
   line-height: 52px;
-  display: flex;
   align-items: center;
+  text-align: center;
   color: rgb(23, 43, 77);
   width: 463px;
   height: 256px;
- }
+  margin: auto;
+  margin-left: 80px;
+}
+
+  .contact-form1 {
+   grid-gap: 10px;
+   margin: auto;
+}
 
 .name input {
   width: 550px;
@@ -1164,19 +1165,31 @@ body {
   width: 550px;
  }
 
+ .contact-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: 120px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
  .fotter-icon {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  justify-content: center;
   height: 80px;
   width: 200px;
-  margin-top: 80px;
- }
-
-.socialicon1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-top: 100px;
+  margin-bottom: -110px;
+  margin-left: 750px;
  }
 
 .email-address {
