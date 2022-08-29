@@ -49,6 +49,7 @@ header {
 .nav-bar .menu {
   margin-right: 32px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .main {
