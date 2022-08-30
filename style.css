@@ -939,7 +939,7 @@ ul li {
 
 @media only screen and (min-width: 768px) {
 body {
-  width: 100%; 
+  width: 100%;
 }
 
   .container {
@@ -1196,8 +1196,4 @@ body {
   display: none;
  }
 
-{
-  margin-left: 100px;
-  margin-bottom: -55px;
-}
 }
